@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  tinier-rdb:
+    build: .
+    ports:
+      - "6281:6281"
+    restart: always
